@@ -7,7 +7,6 @@ class Make_beer_pyramid
 
         @num_of_beers_on_lvl = 1 # Initialize Variable
         @level = 1               # Initialize Variable
-        @total_beers = 0
         @total_number_of_beers = 0
     end
 
@@ -24,10 +23,9 @@ class Make_beer_pyramid
 
 
             display_beers
+
             @level += 1
             @num_of_beers_on_lvl = @level * @level
-            @total_beers += @num_of_beers_on_lvl
-
 
 
             @beercan_level_price = @beercan_price * @num_of_beers_on_lvl
@@ -38,7 +36,7 @@ class Make_beer_pyramid
 
     def display_beers
         cans_to_display = @can * (@num_of_beers_on_lvl / @level)
-        puts cans_to_display.center(200)
+        puts cans_to_display.center(100)
         @total_number_of_beers += @num_of_beers_on_lvl
         @result << "Number of Beers on Level #{@level}: #{@num_of_beers_on_lvl}\n"
     end
