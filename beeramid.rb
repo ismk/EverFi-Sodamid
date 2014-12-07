@@ -22,6 +22,7 @@ def make_beeramid(ref_bonus, beercan_price)
         ref_bonus -=  beercan_level_price
         level += 1
     end
+
     puts "Number of levels: #{level-1}"
     puts "Total Beer Cans: #{total_beers}"
 end
