@@ -22,4 +22,4 @@ Complete the sodaamid function to return the number of complete levels of a soda
 (Though the question refers to soda, you may sub in another similarly canned beverage at your discretion)
 
 
-[screenshot](./soda_pyramid.png)
+[screenshot](https://github.com/ismk/EverFi-Sodamid/blob/master/soda_pyramid.png)
