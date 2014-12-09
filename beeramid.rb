@@ -40,23 +40,33 @@ class Make_beer_pyramid
     end
 
 
-    def display_beers
+    def beer_pyramid
         @cans_to_display.each do |cans|
             puts cans.center(100)
         end
     end
 
-    def final_result
-        display_beers
-        puts @result
+    def num_of_levels
+        @result.count
+    end
+
+    def beers_on_levels
+        @result
+    end
+
+    def display
+        beer_pyramid
+        print "Number of Levels:"
+        puts num_of_levels
+        puts ""
+        puts beers_on_levels
         puts ""
         puts "Total Number of Beers Used: #{@total_number_of_beers}"
         puts "Bonus Remaining: #{@remaining}"
     end
+
 end
 
-beeramid = Make_beer_pyramid.new(1000,1)
-
-beeramid.calc_beeramid
-
-beeramid.final_result
+# beeramid = Make_beer_pyramid.new(5000,2)
+# beeramid.calc_beeramid
+# p beeramid.num_of_levels
