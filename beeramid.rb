@@ -53,6 +53,7 @@ class Make_beer_pyramid
     end
 end
 
+
 beeramid = Make_beer_pyramid.new(1000,1)
 
 beeramid.calc_beeramid
