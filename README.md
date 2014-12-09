@@ -19,7 +19,12 @@ Complete the sodamid function to return the number of complete levels of a soda 
 
 2) the price of a soda can
 
-(Though the question refers to soda, you may sub in another similarly canned beverage at your discretion)
+-------
 
+To run the program
+
+```ruby
+ruby runner.rb
+```
 
 ![screenshot](https://github.com/ismk/EverFi-Sodamid/blob/master/soda_pyramid.png)
