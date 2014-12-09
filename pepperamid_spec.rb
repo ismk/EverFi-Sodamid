@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative 'sodamid'
+require_relative 'pepperamid'
 
 describe "Display Pyramid of sodas!" do
 
