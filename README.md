@@ -13,7 +13,7 @@ Let's pretend your company just hired your friend from college and paid you a re
 
 A soda can pyramid will square the number of cans in each level - 1 can in the top level, 4 in the second, 9 in the next, 16, 25...
 
-Complete the sodaamid function to return the number of complete levels of a soda can pyramid you can make, given the parameters of:
+Complete the sodamid function to return the number of complete levels of a soda can pyramid you can make, given the parameters of:
 
 1) your referral bonus, and
 
